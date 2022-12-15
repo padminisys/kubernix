@@ -4,6 +4,8 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 https://github.com/tektoncd/triggers/blob/main/docs/getting-started/README.md
 
+https://github.com/vercel/next.js/tree/canary/examples/with-docker-multi-env
+
 First, run the development server:
 
 ```bash
