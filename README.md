@@ -2,6 +2,8 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Getting Started
 
+https://github.com/tektoncd/triggers/blob/main/docs/getting-started/README.md
+
 First, run the development server:
 
 ```bash
