@@ -1,0 +1,23 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: wpk8s-ui-deploy
+  namespace: wpk8s
+  labels:
+    app: wpk8s-ui
+spec:
+  selector:
+    matchLabels:
+      app: wpk8s-ui
+  template:
+    metadata:
+      labels:
+        app: wpk8s-ui
+    spec:
+      containers:
+        - image: padminisys/wpk8s-ui:latest
+          imagePullPolicy: Always
+          name: wpk8s-ui
+          ports:
+            - containerPort: 3000
+              name: wpk8s-ui
