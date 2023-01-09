@@ -5,9 +5,9 @@ export const authOptions = {
   // Configure one or more authentication providers
   providers: [
     KeycloakProvider({
-      clientId: process.env.KEYCLOAK_ID,
-      clientSecret: process.env.KEYCLOAK_SECRET,
-      issuer: process.env.KEYCLOAK_ISSUER
+      clientId: 'wpk8s-ui-client',
+      clientSecret: '07bgr0DHOmd526E7tJ49SiLMEAsZrPy4',
+      issuer: 'https://iam.padmini.systems/realms/wpk8s-ui'
     })
     // ...add more providers here
   ]

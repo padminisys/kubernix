@@ -15,7 +15,7 @@ spec:
         app: wpk8s-ui
     spec:
       containers:
-        - image: padminisys/wpk8s-ui:latest
+        - image: padminisys/wpk8s-com:latest
           imagePullPolicy: Always
           name: wpk8s-ui
           ports:
